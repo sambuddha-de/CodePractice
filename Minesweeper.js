@@ -44,6 +44,7 @@ console.clear();
 let mines = findMines([[0, 0],[3,3]], 4, 4);
 console.log("Mine Field ");
 console.log(mines);
+
 console.log ("After Click");
 expandField (mines,[0,3],4,4)
 console.log(mines);
